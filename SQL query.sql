@@ -1,10 +1,4 @@
-CREATE TABLE "departments" (
-    "dept_no" varchar   NOT NULL,
-    "dept_name" varchar  NOT NULL
-)
 
-CREATE TABLE "dept-emt" (
-    "emp_no" int   NOT NULL,
 
 SELECT * FROM "dept-emt"
 SELECT salaries.salary FROM "salaries"
